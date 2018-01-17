@@ -1,1 +1,1 @@
-# A Mining Gam
+# A Mining Game
