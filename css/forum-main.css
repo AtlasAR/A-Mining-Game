@@ -1,0 +1,197 @@
+body {
+    text-align:center;
+    background: url("images/bg.png");
+    background-repeat:repeat;
+    margin:0;
+    padding:0;
+    padding-top:75px;
+}
+
+a{
+    color:#004906;
+    text-decoration:none;
+}
+
+a img {
+    border:none;
+}
+
+input[type='text'],textarea {
+    border:1px solid grey;
+    background-color:#E5E5E5;
+}
+
+#container {
+    margin:0 auto;
+    width:950px;
+    text-align:left;
+}
+
+#navbar {
+    top:0;
+    position:fixed;
+    z-index:100;
+    padding-top:29px;
+    height:69px;
+    width:100%;
+    background: url("images/bg_top.png");
+    background-repeat: repeat-x;
+    text-align:center;
+    color:#EA5D00;
+    font-size:27px;
+}
+#navbar a {
+    color:#EA5D00;
+    margin-right:6px;
+}
+
+.forum {
+    margin:0 auto;
+    margin-top:30px;
+    width:800px;
+    margin-bottom:20px;
+    padding-bottom:15px;
+    background: url("images/bg_transparent.png");
+}
+
+.forum .large {
+    width:900px;
+}
+
+.forum span.title {
+    width:100%;
+    height:45px;
+    
+    display:inline-block;
+    text-align:center;
+    background: url("images/bg_title.png");
+    background-repeat: repeat-x;
+    background-color:#3D2A1C;
+    margin:0;
+    padding:0;
+}
+
+/*.forum span.title span.titletext{
+    display:inline-block;
+    margin:0 auto;
+    margin-top:10px;
+    padding:4px;
+    width:325px;
+    text-align:center;
+    background: url("images/bg_transparent_orange.png");
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    font-weight:bold;
+}*/
+
+.forum span.title span.titletext{
+    display:inline-block;
+    margin-top:10px;
+    padding:4px;
+    color:white;
+    font-weight:bold;
+}
+
+.forum p.description {
+    margin:7px;
+    width:60%;
+    float:left;
+}
+
+.forum p.rightInfo {
+    margin:7px;
+    width:35%;
+    text-align:left;
+    float:right;
+}
+
+.clearGreenSpan {
+    width:100%;
+    margin:0;
+    margin-bottom:10px;
+    padding:6px;
+    background: url("images/bg_transparent_green.png");
+}
+
+.clearOrangeSpan {
+    width:100%;
+    margin:0;
+    margin-bottom:10px;
+    padding:6px;
+    background: url("images/bg_transparent_orange.png");
+}
+
+.dark {
+    background: url("images/bg_transparent_darker.png");
+}
+
+ul.nav {
+    margin:0 auto;
+    margin-top:15px;
+    list-style-type:none;
+}
+ul.nav li {
+    display:inline;
+    margin-right:2px;
+    padding:3px;
+    cursor:pointer;
+    text-transform:uppercase;
+    border:1px solid #a1a1a1;
+    background-color:#e5e5e5;
+    color:#5d5d5d;
+}
+ul.nav li.selected{
+    background-color:transparent;
+    border:none;
+}
+ul.nav li a {
+    color:#5d5d5d;
+}
+
+span[name="details"] {
+    font-size:12px;
+    margin-bottom:6px;
+}
+
+.button {
+    padding:3px;
+    margin-right:3px;
+    cursor:pointer;
+    text-transform:uppercase;
+    border:1px solid #a1a1a1;
+    background-color:#e5e5e5;
+    color:#5d5d5d;
+}
+.button a {
+    color:#5d5d5d;
+}
+
+
+.clearGreenSpan a, .clearOrangeSpan a{
+    color:black;
+    font-weight:bold;
+}
+
+.orangelink a {
+    color:#EA5D00;
+}
+
+.innerContainer {
+    margin:10px;
+}
+
+.forumbuttons {
+    clear:both;
+}
+
+.center {
+    margin:0 auto;
+}
+
+.clear {
+    clear:both;
+}
+
+.ad {
+    float:right;
+}

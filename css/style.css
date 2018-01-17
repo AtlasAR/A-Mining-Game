@@ -1,0 +1,410 @@
+body {
+    margin:0;
+    padding:0;
+}
+
+#container {
+    margin:0 auto;
+    width:1600px;
+}
+
+#loading_screen {
+    position:fixed;
+    top:        0; 
+    left:       0; 
+    z-index:200;
+    min-width:100%;
+    min-height:100%;
+    background-color:white;
+    text-align:center;
+}
+
+#updatebar {
+    top:0;
+    position:fixed;
+    width:100%;
+    background-color:#f9b370;
+    border-bottom:1px solid #e8760a;
+    color:white;
+    font-weight:bold;
+    text-align:center;
+    z-index:100;
+}
+
+#warningbar {
+    top:0;
+    position:fixed;
+    width:100%;
+    background-color:#f4586b;
+    border-bottom:1px solid #48050d;
+    color:white;
+    font-weight:bold;
+    text-align:center;
+    z-index:100;
+}
+
+#gamecontainer {
+    margin:0 auto;
+    padding:15px;
+    width:1050px;
+    text-align:center;
+    float:left;
+}
+
+#quickdetails {
+    display:block;
+    position:fixed;
+    top:0px;
+    width:80%;
+    padding-top:10px;
+    background-color:white;
+}
+
+#quickdetails table {
+    margin-left:50px;
+}
+
+#save {
+    float:left;
+    width:240px;
+    font-size:19px;
+    margin:20px 50px 0 10px;
+}
+
+#save img {
+    vertical-align:middle;
+}
+
+#upgrades_container {
+    float:left;
+    width:33%;
+}
+
+#upgrades_container a {
+    color:white;
+    text-decoration:none;
+}
+
+#mining_container {
+    float:left;
+    margin:0 auto;
+    width:33%;
+}
+
+#vault_container {
+    float:right;
+    width:33%;
+}
+
+#shrine {
+    float:left;
+    margin:0 auto;
+    width:33%;
+}
+
+.button_mine {
+    width:100%;
+    font-size:26px;
+}
+
+#mine_box {
+    margin-top:10px;
+}
+
+/*div[name="globalBossContainer"] {
+    
+}*/
+
+div[name="globalBossContainer"] div[name="lobby"] {
+    text-align:left;
+}
+
+#employment {
+    margin-top:100px;
+}
+
+#employment table[name="workers"] span.ore {
+    font-size:13px;
+    float:left;
+    margin-right:8px;
+}
+
+#employment div[name="items_holder"] span.item {
+    float:left;
+    display:inline-block;
+    height:210px;
+    width:225px;
+    margin-right:15px;
+    margin-bottom:7px;
+    text-align:center;
+}
+
+#employment div[name="items_holder"] span.item span[name="item_details"] {
+    display:block;
+    width:100%;
+    text-align:left;
+}
+td.widebuttons button {
+    width:100%;
+    clear:both;
+}
+
+.upgrade {
+    width:70%;
+    padding:7px;
+    margin:0 auto;
+    margin-bottom:7px;
+    border:1px solid grey;
+    background-color:grey;
+    color:white;
+    text-align:left;
+}
+
+.upgrade img {
+    margin-right:10px;
+    float:left;
+}
+
+#money_display {
+    padding:6px;
+    color:white;
+    background-color:#367C17;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+}
+
+.displaytext {
+    padding:6px;
+    color:white;
+    background-color:grey;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+}
+
+td.globalbossevent {
+    border:1px solid #2c7e07;
+    background-color:#cffbbc;
+    font-weight:bold;
+    font-size:13px;
+    padding:3px;
+}
+
+.globalbossGreen {
+    border:1px solid #2c7e07;
+    background-color:#cffbbc;
+}
+
+#inventory td {
+    background-color:grey;
+    border:1px solid black;
+}
+
+table[name="stats"] {
+    font-size:20px;
+}
+
+.popup {
+    z-index:100;
+    width:400px;
+    position:absolute;
+    left:50%;	
+    margin-left:-200px;	
+    top:250px;
+    background-repeat:repeat;
+    background-image:url('../game/img/style/transparent_bg_black.png');
+    padding:15px;
+    color:#919191;
+    word-wrap:break-word;
+}
+
+.popup button {
+    float:right;
+    background-color:transparent;
+    font-weight:bold;
+    color:#C4B56B;
+    border:none;
+    cursor:pointer;
+}
+
+.popup p.title {
+    text-align:center;
+    margin-bottom:7px;
+    color:#C6A500;
+}
+
+.popup input, .popup textarea {
+    background-color:grey;
+    border:1px solid black;
+    color:black;
+}
+
+span.popup_item {
+    float:left;
+    display:inline-block;
+    margin-right:7px;
+    margin-top:8px;
+    text-align:center;
+}
+
+span.popup_rewardstitle {
+    display:block;
+    margin:0 auto;
+    color:#C6A500;
+    border-bottom:1px dashed #C6A500;
+    font-size:19px;
+}
+
+.research {
+    text-align:left;
+    max-width:600px;
+}
+
+.bar {
+        padding:0;
+        height:25px;
+        width:300px;
+        border:1px solid #295dfd;
+        overflow:hidden;
+}
+
+.bar span {
+        display:inline-block;
+        padding:0;
+        margin:0;
+        height:25px;
+        color:white;
+        text-align:center;
+        background-color:#7d9dfe;
+        border:1px solid #7d9dfe;
+        overflow:hidden;
+}
+
+.healthbar {
+        padding:0;
+        height:5px;
+        width:300px;
+        background-color:green;
+        overflow:hidden;
+}
+
+.healthbar span {
+        display:inline-block;
+        float:right;
+        padding:0;
+        margin:0;
+        height:5px;
+        color:white;
+        text-align:center;
+        background-color:red;
+        border:1px solid red;
+        overflow:hidden;
+}
+
+.healthbar.large, .healthbar.large span {
+    height:15px;
+}
+
+.globalBossBar {
+    padding:0;
+    height:25px;
+    background-color:green;
+    overflow:hidden;
+}
+
+.globalBossBar span {
+    display:inline-block;
+    float:right;
+    padding:0;
+    margin:0;
+    height:25px;
+    color:white;
+    text-align:center;
+    background-color:red;
+    border:1px solid red;
+    overflow:hidden;
+}
+
+.votebar{
+    height:20px;
+    display:inline-block;
+    border:1px solid #9c6006;
+    background-color:#facb85;
+    color:black;
+    font-weight:bold;
+    font-size:13px;
+    overflow:hidden;
+    text-align:right;
+}
+
+.enderBox {
+    border:1px solid #1d4a4e;
+    background-color:#21565b;
+    color:#389199;
+}
+
+.leftMargin {
+    float:left;
+    min-width:180px;
+    max-width:180px;
+    margin-right:10px;
+    margin-bottom:6px;
+}
+
+.general {
+    border:1px solid #532289;
+    background-color:#dcc9f2;
+    color:#2a1145;
+}
+
+.general2 {
+    border:1px solid #C43D48;
+    background-color:#FF9BA3;
+    color:#912B34;
+}
+
+.general3 {
+    border:1px solid #DBAC2B;
+    background-color:#FFE99B;
+    color:#967B33;
+}
+
+#chatbox {
+    margin:0 auto;
+    width:900px;
+    height:300px;
+    background-color:grey;
+}
+
+.hidden {display:none;}
+.title {font-size:26px;text-transform:uppercase;padding:0;margin:0;}
+#employment .title {font-size:24px;text-transform:uppercase;padding:0;margin:0;}
+.left {float:left;}
+.center {margin:0 auto;}
+.right {float:right;}
+.max50 {max-width:50%;}
+.max30 {max-width:30%;}
+.textleft {text-align:left;}
+.textright {text-align:right;}
+.clear {clear:both;}
+.vtext {vertical-align:middle;}
+
+.red{
+    background-color:#FF7777;
+}
+
+.green {
+    background-color:#4CA555;
+}
+
+.selected {
+    background-color:#D8D8D8 ;
+}
+
+a {
+    color:black;
+    text-decoration:none;
+}
+
+a img {
+    border:0;
+}

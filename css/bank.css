@@ -1,0 +1,15 @@
+body,html {
+    background-color:black;
+    color:white;
+}
+
+#vault {
+    margin:0 auto;
+    margin-top:60px;
+    text-align:center;
+}
+
+p.title {
+    font-family: 'Seymour One', sans-serif;
+    font-size:27px;
+}

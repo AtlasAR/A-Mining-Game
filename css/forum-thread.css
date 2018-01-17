@@ -1,0 +1,42 @@
+table.reply {
+    width:100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+table.reply td {vertical-align:top;}
+
+/* user post */
+table.reply .left {
+    width:20%;
+    background: url("images/bg_transparent_black.png");
+    text-align:center;
+    border:1px solid #252525;
+    border-right:none;
+    word-break:break-word;
+}
+table.reply .right {
+    width:80%;
+    background: url("images/bg_transparent_darker.png");
+    border:1px solid #252525;
+    word-break:break-word;
+}
+
+/* moderator post */
+table.reply .left.mod {
+    background: url("images/bg_transparent_darkgreen.png");
+}
+table.reply .right.mod {
+    background: url("images/bg_transparent_green.png");
+}
+
+/* admin post */
+table.reply .left.admin {
+    background: url("images/bg_transparent_darkgreen.png");
+}
+table.reply .right.admin {
+    background: url("images/bg_transparent_green.png");
+}
+
+table.reply img {
+    max-width:100%;
+}

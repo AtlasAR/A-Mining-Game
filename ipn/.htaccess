@@ -1,0 +1,6 @@
+<files ipn_error.txt>
+Deny from all
+</files>
+<files log.txt>
+Deny from all
+</files>
